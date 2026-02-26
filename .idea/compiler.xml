@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="notification-service" />
+        <module name="Order-Service" />
         <module name="User-Service" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Notificaiton-Service" options="-parameters" />
       <module name="Notification-Service" options="-parameters" />
+      <module name="Order-Service" options="-parameters" />
       <module name="User-Service" options="-parameters" />
       <module name="microservices-root" options="" />
       <module name="notification-service" options="-parameters" />
