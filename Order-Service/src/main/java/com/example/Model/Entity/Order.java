@@ -1,5 +1,6 @@
 package com.example.Model.Entity;
 
+import com.example.Constant.AppConstant;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
@@ -35,7 +36,18 @@ public class Order extends AbstractMappedEntity {
     @Column(name = "order_date")
     private LocalDateTime orderDate;
 
+    @Column(name = "order_desc")
+    private String orderDesc;
 
+    @Column(name = "order_fee", columnDefinition = "decimal")
+    private Double orderFee;
+
+    @Column(name = "product_id")
+    private Long productId;
+
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "cart_id")
+    private Cart cart;
 
 
 }
