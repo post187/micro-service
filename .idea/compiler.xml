@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="notification-service" />
         <module name="Order-Service" />
+        <module name="notification-service" />
+        <module name="Product-Service" />
         <module name="User-Service" />
       </profile>
     </annotationProcessing>
@@ -21,6 +22,7 @@
       <module name="Notificaiton-Service" options="-parameters" />
       <module name="Notification-Service" options="-parameters" />
       <module name="Order-Service" options="-parameters" />
+      <module name="Product-Service" options="-parameters" />
       <module name="User-Service" options="-parameters" />
       <module name="microservices-root" options="" />
       <module name="notification-service" options="-parameters" />
