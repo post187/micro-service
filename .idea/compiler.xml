@@ -9,6 +9,7 @@
         <module name="Order-Service" />
         <module name="notification-service" />
         <module name="Product-Service" />
+        <module name="Search-Service" />
         <module name="User-Service" />
       </profile>
     </annotationProcessing>
@@ -23,6 +24,7 @@
       <module name="Notification-Service" options="-parameters" />
       <module name="Order-Service" options="-parameters" />
       <module name="Product-Service" options="-parameters" />
+      <module name="Search-Service" options="-parameters" />
       <module name="User-Service" options="-parameters" />
       <module name="microservices-root" options="" />
       <module name="notification-service" options="-parameters" />
