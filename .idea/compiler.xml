@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Order-Service" />
+        <module name="favourite-service" />
         <module name="notification-service" />
         <module name="Product-Service" />
         <module name="Search-Service" />
@@ -26,6 +27,7 @@
       <module name="Product-Service" options="-parameters" />
       <module name="Search-Service" options="-parameters" />
       <module name="User-Service" options="-parameters" />
+      <module name="favourite-service" options="-parameters" />
       <module name="microservices-root" options="" />
       <module name="notification-service" options="-parameters" />
     </option>

@@ -50,6 +50,7 @@
         <module>Product-Service</module>
 		<module>Order-Service</module>
         <module>Search-Service</module>
+        <module>favourite-service</module>
     </modules>
 
 	<!-- Plugin chung cho toàn bộ module -->
