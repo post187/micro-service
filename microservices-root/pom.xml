@@ -51,7 +51,8 @@
 		<module>Order-Service</module>
         <module>Search-Service</module>
         <module>favourite-service</module>
-    </modules>
+		<module>rating-service</module>
+	</modules>
 
 	<!-- Plugin chung cho toàn bộ module -->
 	<build>
